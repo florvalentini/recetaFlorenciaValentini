@@ -1,0 +1,177 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color:rgb(247, 235, 169);
+    margin: 0;
+}
+
+header {
+    background-color: blueviolet;
+}
+.menu {
+    background-color: rgb(147, 210, 30);
+    border-radius: 20px;
+}
+
+.menu ul {
+    list-style: none;
+    
+    padding: 0 60px;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    color: aliceblue;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    background-color: rgb(156, 80, 255);
+}
+
+main {
+    background-color: brown;
+}
+
+.titulo {  
+    background-color: rgb(207, 111, 32);
+    height: 60px;
+    padding: 30px;
+    border-radius: 20px;   
+}
+
+.title {
+    font-family: 'Goblin One', cursive;
+    text-align: center;
+    margin-top: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.parr p {
+    color: aliceblue;
+    background-color: rgb(207, 111, 32);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 8px rgb(207, 111, 32), 0 0 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.cajasp {
+    overflow: hidden;
+}
+
+.caja {
+    float: left;
+}
+
+#caja1 {
+    margin: 0;
+    background-color: chocolate;
+    border-style: solid;
+    border-color: rgb(238, 172, 31);
+    font-family: 'Roboto', sans-serif;
+    width: 25%;
+    height: 55%;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 25%;
+    text-align: center;
+}
+
+#caja1 ul {
+    text-align:left;
+    
+}
+
+#caja2 {
+    background-color: rgb(210, 162, 30);
+    border-style: solid;
+    border-color: rgb(238, 234, 31);
+    font-family: 'Roboto', sans-serif;
+    width: 25%;
+    height: 55%;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.video {
+    text-align: center;
+}
+
+.mapa {
+    text-align: center;
+}
+
+.mapa h5 {
+    background-color: rgb(207, 111, 32);
+    border-radius: 20px;
+    width: 75%;
+    padding: 5px;
+    margin-left: 12%;
+}
+
+footer {
+    background-color: rgb(210, 30, 30);
+    padding: 5px;
+}
+
+footer p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+@media (max-width: 700px) {
+    
+    body {
+        max-width: initial;
+        padding: 40px 30px;
+        width: 100%;
+        padding: 0;
+    }
+
+    .images {
+        text-align: center;
+    }
+
+    .caja {
+        float: none;
+        overflow: hidden;
+    }
+
+    #caja1 {
+        width: 90%;
+        margin: 1%;
+    }
+
+    #caja2 {
+        width: 90%;
+        margin: 1%;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+}
